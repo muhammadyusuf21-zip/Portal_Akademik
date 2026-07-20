@@ -4,8 +4,8 @@ class SupabaseConfig {
   // ==========================================
   // TODO: ISI DENGAN CREDENTIALS SUPABASE ANDA
   // ==========================================
-  static const String supabaseUrl = "https://vtwtgxcxryruruvopsnm.supabase.co"; // Contoh: "https://xxxx.supabase.co"
-  static const String supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ0d3RneGN4cnlydXJ1dm9wc25tIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM5OTA4NjksImV4cCI6MjA5OTU2Njg2OX0.JTrqmNlF30__l-MlwnzbEwY5MB0Sy2Zrc3DUyWhB_TM"; // Contoh: "eyJhbGciOiJIUzI1Ni..."
+  static const String supabaseUrl = "https://xxxx.supabase.co"; 
+  static const String supabaseAnonKey = "anon public key"; // Contoh: "eyJhbGciOiJIUzI1Ni..."
 
   static bool get isConfigured =>
       supabaseUrl.isNotEmpty &&
